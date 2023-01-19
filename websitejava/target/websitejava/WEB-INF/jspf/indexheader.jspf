@@ -1,0 +1,21 @@
+    <nav class="flex justify-between   h-[6.2rem] w-full items-center pl-6 pr-[3.5rem]  fixed top-0 z-2 bg-gray ">
+        <h1 class="font-bold text-4xl "><a href="">logo </a></h1>
+        <ul
+            class="md:flex md:space-x-7 text-2xl absolute md:static z-[-1] top-[-150px] md:top-0 transition-all ease-in duration-500">
+            <li
+                class=" cursor-pointer hover:text-red-500 hover:bg-white rounded-xl pl-3 pr-3 duration-500 font-semibold">
+                <a href="index.jsp">Home</a>
+            </li>
+            <li
+                class=" cursor-pointer hover:text-red-500 hover:bg-white rounded-xl pl-3 pr-3 duration-500 font-semibold">
+                <a href="alldata.jsp">All Data</a>
+            </li>
+            <!-- <li
+                class=" cursor-pointer hover:text-red-500 hover:bg-white rounded-xl pl-3 pr-3 duration-500 font-semibold">
+                <a href=""></a> Service</li> -->
+            <li
+                class=" cursor-pointer hover:text-red-500 hover:bg-white rounded-xl pl-3 pr-3 duration-500 font-semibold border-[1px] ">
+                <a href="#">Contact</a> </li>
+        </ul>
+        <ion-icon class="md:hidden text-red-500 text-3xl" name="menu" onclick="change(this)"></ion-icon>
+    </nav>
